@@ -43,6 +43,6 @@ jobs:
 # @note: you can use regular docker commands instead of the shared action
       - name: Build and Push Without Buildx
         run: |
-          docker build -t us-central1.pkg.dev/[PROJECT ID]/[REPO NAME]/[IMAGE NAME]:[TAG] .
-          docker push [GCP REGION].pkg.dev/[PROJECT ID]/[REPO NAME]/[IMAGE NAME]:[TAG]
+          docker build -t us-central1.pkg.dev/assignment-2-440223/[REPO NAME]/[IMAGE NAME]:[TAG] .
+          docker push us-central1.pkg.dev/assignment-2-440223/[REPO NAME]/[IMAGE NAME]:[TAG]
           --> us-central1.pkg.dev/pitt-cs-1660/build-and-push-image-amb10/node-demo:v1 <--
