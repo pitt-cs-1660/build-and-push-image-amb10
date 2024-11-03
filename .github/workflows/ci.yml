@@ -45,4 +45,4 @@ jobs:
         run: |
           docker build -t [GCP REGION].pkg.dev/[PROJECT ID]/[REPO NAME]/[IMAGE NAME]:[TAG] .
           docker push [GCP REGION].pkg.dev/[PROJECT ID]/[REPO NAME]/[IMAGE NAME]:[TAG]
-          --> us-central1.pkg.dev/cc-fall2024/dansc0de/node-demo:v1 <--
+          --> us-central1.pkg.dev/pitt-cs-1660/build-and-push-image-amb10/node-demo:v1 <--
